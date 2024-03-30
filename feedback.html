@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/design1.css">
+</head>
+<body class="bodyFeedback">
+<header class="headerFeedback">
+    <nav>
+        <div class="logo">Logo</div>
+            <ul>
+                <li><a href="landingPage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="login.html" class="btn">Log in</a></li>
+            </ul>
+    </nav>
+</header>
+
+<main>
+<h1 id="previousFeedbacks">Previous Feedbacks</h1>
+<div class="sliderContainer">
+
+    <div id="slider">
+            <img src="img/paper1.png">
+            <img src="img/paper2.png">
+            <img src="img/paper3.png">
+	        <div id="sliderNav">
+			<a href="#slide1"></a>
+            <a href="#slide2"></a>
+            <a href="#slide3"></a>
+        </div>
+    </div>
+</div>
+<img src="img/likeDislike.png" id="likeDislike">
+<img src="img/feedback.png" id="feedback">
+<h1 id="feedbackh1">Your Feedback</h1>
+<div class="form-box">
+    <form>
+        <label for="uname">Name </label>
+        <input type="text" id="uname">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email">
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone">
+
+        <label>Are you benefiting from our explanation?</label>
+        <div class="radio-group">
+            <input type="radio" id="yes" name="satisfy" value="yes" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="satisfy" value="no">
+            <label for="no">No</label>
+        </div>
+        <label for="msg">Write your Suggestions:</label>
+        <textarea id="msg" name="msg" rows="4" cols="10"></textarea>
+        <button type="submit" class="btn feeddback">Submit</button>
+    </form>
+</div>
+<img src="img/satisfaction.png" id="satisfaction">
+</main>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <link rel="stylesheet" href="css/design4.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+</head>
+
+<body>
+   
+
+    <div class="container-fun">
+        <img src="img/courses.png" class="backToCourses">
+        <h5 id="backToCourses"><a href="courses.html">Back To Courses</a></h5>
+        <div id="textContent">
+            <h1>What is a Function?</h1>
+            <p>A function, in mathematics, is an expression, rule, or law that defines a relationship between one
+                variable (the independent variable) and another variable (the dependent variable). In simple words, it
+                relates an input to an output.</p>
+            <h1>How to write a function?</h1>
+            <img src="img/howto.png">
+            <p>is the classic way.</p>
+
+            <h1>Name</h1>
+            <p>It is important to give a function a name, the most common name is f(x), but we can have other names like
+                "g".</p>
+            <img class="fun-name" src="c:\Users\User\Downloads\fun-name.jpg">
+            <p>We say: “f of x equals to x squared”<br>what goes into the function is put inside parentheses () after the name of the function:<br>
+            So f(x) shows us the function is called "f", and "x" goes in.<br>
+            Let’s see an example:<br>
+            f(x) = x²</p>
+            <ul class="function-example-list">
+                <li>An input of 3</li>
+                <li>Becomes an output of (3 × 3 × 3 = 27)</li>
+            </ul>
+            <p>So, f(3) = 27</p>
+
+
+        <div class="fun-notes">
+            <h1>Important Notes</h1>
+            <p>As we said above, a function relates each element of a set with exactly one element of another set
+                (possibly the same set).<br><br>You can understand it more by diving through this image</p>
+            <img class="note" src="img/notefun.jpg">
+            <h3>Pay attention to those notes:</h3>
+            <ul>
+                <li> "...each element..." means that every element in X is related to some element in Y</li>
+                <li> "...exactly one..." means that a function is single valued. It will not give back 2 or more results
+                    for the same input.<br>
+                    So "g(5) = 1 or 4" is not right!
+                </li>
+            </ul>
+
+            <h4>"One-to-many" is not allowed, but "many-to-one" is allowed:</h4>
+            <img class="onetomany" src="img/onetomany.jpg">
+            <h4>This is NOT OK in a function</h4>
+            <img class="manytomany" src="img/manytomany.jpg">
+            <h4>This is OK in a function</h4>
+            <br>
+            <br>
+            <h3>Example: The relationship x → X^3</h3>
+            <table class="data-table" border="3">
+                <tr>
+                    <th>x</th>
+                    <th>y</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>27</td>
+                </tr>
+            </table>
+
+            <br>
+            <p>Now think, is this a function?<br>You are correct!! It is a function, because:</p>
+            <ul>
+                <li>Every element in X is related to Y</li>
+                <li>No element in X has two or more relationship</li>
+            </ul>
+        <br>
+
+            <h1>Domain and Range</h1>
+            <ul>
+                <li>The domain of a function is the set of its possible inputs</li>
+                <li>The set of elements that get pointed to in Y (the actual values produced by the function)</li>
+            </ul>
+
+            <h4>See this graph to make it clear:</h4>
+            <img class="img1" src="img/domain.jpg">
+            <h2>Vertical Line Test</h2>
+            <p>On a graph, the idea of single valued means that no vertical line ever crosses more than one
+                value.<br><br>If it crosses more than once it is still a valid curve, but is not a function<br><br>See
+                the graph:</p>
+            <img class="vertical-line " src="img/vertical line.jpg">
+            <h2>Piecewise Functions</h2>
+            <p>It is a function defined by multiple sub-functions, where each sub-function applies to a different
+                interval in the domain.<br>Example:</p>
+            <ul>
+                <li>When \( x \) is less than 2, it gives \( x^2 \)</li>
+                <li>When \( x \) is exactly 2, it gives 6</li>
+                <li>When \( x \) is more than 2 and less than or equal to 6, it gives the line \( 10 - x \)</li>
+            </ul>
+            <img class="piecewise" src="img/function-piecewise-b.gif">
+
+            <h5>We write it like this:</h5>
+            <img class="Piecewise Functions" src="img/Piecewise Functions.jpg">
+            <h5>Here are some example values:  </h5>
+            <table class="piecewise" border="3">
+                <tr>
+                    <th>x</th>
+                    <th>y</th>
+                </tr>
+                <tr>
+                    <td>-4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>-2</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>7</td>
+                </tr>
+            </table>
+            <br>
+
+            <h1>Even and Odd Functions:</h1>
+            <h2>Even Function</h2>
+            <p>An even function is a function where f(x) = f(-x)</p>
+            <h3>Example:</h3>
+            <p>Consider the function f(x) = x².</p>
+            <p>For this function:</p>
+            <p>f(-x) = (-x)² = x²</p>
+            <p>Since f(x) = f(-x), it is an even function.</p>
+            <h2>Odd Function</h2>
+            <p>An odd function is a function where f(x) = -f(-x).</p>
+            <h3>Example:</h3>
+            <p>Consider the function f(x) = x² sin(x).</p>
+            <p>For this function:</p>
+            <p>f(-x) = -(-x)² sin(-x) = -x² sin(x)</p>
+            <p>Since f(x) = -f(-x), it is an odd function.</p>
+        </div>
+    </div>
+    <div class="circle1"></div>
+    <div class="half"></div>
+    <div class="half2"></div>
+    <div class="square1"></div>
+    <div class="square2"></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="triangle1"></div>
+    <div class="triangle2"></div>
+    <div class="triangle3"></div>
+    <div class="circle3"></div>
+    <div class="circle6"></div>
+    <div class="circle7"></div>
+    <div class="circle8"></div>
+    <div class="circle9"></div>
+    <div class="circle10"></div>
+</body>
+
+</html>
